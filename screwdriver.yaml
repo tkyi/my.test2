@@ -1,7 +1,8 @@
 jobs:
   meow:
     requires: [~pr, ~commit]
-    sourcePaths: [README.md]
-    image: node:6
+    # sourcePaths: [README.md]
+    # image: node:6
+    template: tiff/template
     steps:
-      - echo: echo hi
+      - teardown-meow: echo hi
