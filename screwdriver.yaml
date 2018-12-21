@@ -2,6 +2,6 @@ jobs:
   meow:
     requires: [~pr, ~commit]
     # sourcePaths: [README.md]
-    # image: node:6
+    image: node:8
     steps:
       - meow: meta set meow.coverage 99.9
