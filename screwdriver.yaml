@@ -3,6 +3,5 @@ jobs:
     requires: [~pr, ~commit]
     # sourcePaths: [README.md]
     # image: node:6
-    template: tiff/template
     steps:
-      - teardown-meow: echo hi
+      - meow: meta set meow.coverage 99.9
