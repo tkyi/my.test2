@@ -4,4 +4,4 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     steps:
-      - meow: meta set meta.summary.coverage 99.9
+      - meow: meta set meta.summary.coverage "99.9"
