@@ -4,4 +4,6 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     steps:
-      - meow: meta set meta.summary.coverage "99.9"
+      - meta: |
+                meta set meta.summary.coverage "Coverage increased by 90%"
+                meta set meta.summary.markdown "this markdown comment is **bold** and *italic* meow"
