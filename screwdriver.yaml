@@ -4,4 +4,6 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     steps:
-      - meta: meta set meta.summary.coverage "Coverage increased by 10%"
+      - comment: |
+          meta set meta.summary.coverage "Coverage increased by 15%"
+          meta set meta.summary.markdown "this markdown comment is **bold** and *italic*"
