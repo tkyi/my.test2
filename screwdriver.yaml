@@ -4,4 +4,4 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     steps:
-      - meow: meta set meow.coverage 99.9
+      - meow: sd-cmd exec tiff/command@stable
