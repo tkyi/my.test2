@@ -4,4 +4,4 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     steps:
-      - meow: sd-cmd exec tiff/command@stable
+      - meow: sd-cmd exec tiff/command@latest
