@@ -4,4 +4,5 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     steps:
-      - meow: sd-cmd exec tiff/command@latest -d ./ -baseVersion "1.0"
+      # - meow: sd-cmd exec sd/command@latest -d ./ -baseVersion "1.0"
+      - test: sd-cmd exec sd/git-tag-version@latest
