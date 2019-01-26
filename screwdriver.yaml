@@ -7,3 +7,6 @@ jobs:
       - comment: |
           meta set meta.summary.coverage "Coverage increased by 15%"
           meta set meta.summary.markdown "this markdown comment is **bold** and *italic*"
+      - status: |
+          meta set meta.status.findbugs '{"status":"FAILURE","message":"923 issues found. Previous count: 914 issues.","url":"findbugs.com"}'
+          meta set meta.status.coverage '{"status":"SUCCESS","message":"Coverage is above 80%."}'
