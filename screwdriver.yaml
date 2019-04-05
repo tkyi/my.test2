@@ -7,4 +7,4 @@ jobs:
       # - meow: sd-cmd exec sd/command@latest -d ./ -baseVersion "1.0"
       # - test: sd-cmd exec sd/git-tag-version@latest
       - echo: echo hi
-      - meta: meta set label VERSION_2.0
+      - meta: meta set label VERSION_2.1
