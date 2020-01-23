@@ -1,6 +1,6 @@
 jobs:
   meow:
-    requires: [~pr, ~commit]
+    requires: [~pr, ~commit, ~sd@2897:main]
     # sourcePaths: [README.md]
     image: node:8
     steps:
