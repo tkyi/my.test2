@@ -8,3 +8,4 @@ jobs:
       # - test: sd-cmd exec sd/git-tag-version@latest
       - echo: echo hi
       - meta: meta set label VERSION_3.0
+      - coverage: meta set tests.coverage 40.03234234
