@@ -4,7 +4,7 @@
   "description": "test new locked template",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "echo skip"
   },
   "repository": {
     "type": "git",
