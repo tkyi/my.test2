@@ -1,0 +1,23 @@
+{
+  "name": "my.test2",
+  "version": "1.0.0",
+  "description": "test new locked template",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkyi/my.test2.git"
+  },
+  "keywords": [
+    "test",
+    "tkyi"
+  ],
+  "author": "tkyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkyi/my.test2/issues"
+  },
+  "homepage": "https://github.com/tkyi/my.test2#readme"
+}
