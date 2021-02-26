@@ -4,7 +4,7 @@ jobs:
     # sourcePaths: [README.md]
     image: node:8
     template: tiff/template2@2
-    order: [test, echo, meta, install]
+    order: [install, echo, meta, test]
     steps:
       # - meow: sd-cmd exec sd/command@latest -d ./ -baseVersion "1.0"
       # - test: sd-cmd exec sd/git-tag-version@latest
