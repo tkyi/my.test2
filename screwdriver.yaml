@@ -4,19 +4,13 @@ jobs:
       slack:
         channels:
           - 'slack-example'
-          - 'slack-test'
-          #- 'screwdriver-cd:slack-test'
+          - 'screwdriver-cd:slack-test'
         statuses:
           - SUCCESS
           - FAILURE
-    requires: [~pr, ~commit, ~sd@2897:main]
-    # sourcePaths: [README.md]
+    requires: [~pr, ~commit]
     image: node:8
-    template: tiff/template2@2
-    order: [install, echo, meta, test]
     steps:
-      # - meow: sd-cmd exec sd/command@latest -d ./ -baseVersion "1.0"
-      # - test: sd-cmd exec sd/git-tag-version@latest
       - echo: echo hi
       - meta: meta set label VERSION_3.0
       - coverage: meta set tests.coverage 40.03234234
