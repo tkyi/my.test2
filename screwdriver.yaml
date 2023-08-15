@@ -1,5 +1,10 @@
 jobs:
   meow:
+    settings:
+      slack:
+        channels:
+          - 'slack-example'
+          - 'screwdriver-cd:slack-test'
     requires: [~pr, ~commit, ~sd@2897:main]
     # sourcePaths: [README.md]
     image: node:8
