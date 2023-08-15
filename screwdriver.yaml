@@ -6,6 +6,9 @@ jobs:
           - 'slack-example'
           - 'slack-test'
           #- 'screwdriver-cd:slack-test'
+        statuses:
+          - SUCCESS
+          - FAILURE
     requires: [~pr, ~commit, ~sd@2897:main]
     # sourcePaths: [README.md]
     image: node:8
