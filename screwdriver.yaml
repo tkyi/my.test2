@@ -3,9 +3,8 @@ jobs:
     settings:
       slack:
         channels:
-          - 'slack-example'
-          - 'slack-test'
-          #- 'screwdriver-cd:slack-test'
+          - 'screwdriver-cd:slack-example'
+          - 'screwdriver-cd:slack-test'
         statuses:
           - SUCCESS
           - FAILURE
